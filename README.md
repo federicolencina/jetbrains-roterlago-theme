@@ -1,4 +1,4 @@
-# jetbrains-roterlago-theme
+# Roterlago Theme
 
 <!-- Plugin description -->
 Jetbrains IDE's Dark Theme with Red Accent. Syntax based on One Dark Pro of Atom
