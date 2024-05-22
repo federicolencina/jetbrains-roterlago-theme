@@ -1,8 +1,10 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <id>com.github.federicolencina.jetbrainsroterlagotheme</id>
-    <name>jetbrains-roterlago-theme</name>
-    <vendor>federicolencina</vendor>
+    <name>Roterlago Theme</name>
+    <vendor email="fede.lensch@gmail.com" url="https://github.com/federicolencina">
+        Federico Lencina
+    </vendor>
 
     <depends>com.intellij.modules.platform</depends>
 
@@ -10,6 +12,7 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <toolWindow factoryClass="com.github.federicolencina.jetbrainsroterlagotheme.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
+        <themeProvider id="0e973836-581b-4a18-a439-a4a9fc7cba3f" path="/theme/jetbrains_roterlago.theme.json"/>
     </extensions>
 
     <applicationListeners>
