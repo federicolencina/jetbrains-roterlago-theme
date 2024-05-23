@@ -360,8 +360,9 @@
         "inactiveBackground": "#212121"
       },
       "HeaderTab": {
+        "underlinedTabBackground": "#292929",
         "hoverBackground": "#313131",
-        "hoverInactiveBackground": "#292929",
+        "hoverInactiveBackground": "#313131",
         "selectedBackground": "#292929",
         "selectedInactiveBackground": "#292929"
       }
