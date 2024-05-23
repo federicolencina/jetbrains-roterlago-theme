@@ -124,11 +124,11 @@
     },
     "DefaultTabs": {
       "underlineHeight": 1,
+      "background": "#212121",
+      "hoverBackground": "#292929",
       "underlineColor": "#404040",
       "inactiveUnderlineColor": "#404040",
-      "hoverBackground": "#292929",
-      "underlinedTabBackground": "#212121",
-      "background": "#212121"
+      "underlinedTabBackground": "#212121"
     },
     "DragAndDrop": {
       "areaForeground": "#cecece",
@@ -136,14 +136,14 @@
       "areaBorderColor": "#252525"
     },
     "Editor": {
-      "background": "#292929",
+      "background": "#212121",
       "foreground": "#cecece",
       "SearchField": {
         "background": "#343434"
       },
       "shortcutForeground": "accentColor",
       "ToolTip": {
-        "background": "#292929"
+        "background": "#212121"
       }
     },
     "EditorPane.inactiveBackground": "#343434",
@@ -159,8 +159,8 @@
       "Rose": "#3d1e2b"
     },
     "GotItTooltip": {
+      "background": "#212121",
       "foreground": "#cecece",
-      "background": "#292929",
       "borderColor": "#404040",
       "linkForeground": "#ed323a",
       "shortcutForeground": "infoForeground"
@@ -170,7 +170,7 @@
       "successForeground": "#89ca78"
     },
     "Lesson": {
-      "Tooltip.background": "#292929",
+      "Tooltip.background": "#212121",
       "Tooltip.spanBackground": "accentColor",
       "Tooltip.foreground": "#ffffff"
     },
@@ -255,7 +255,7 @@
       }
     },
     "Popup": {
-      "background": "#252525",
+      "background": "backgroundColor",
       "paintBorder": false,
       "borderColor": "#252525",
       "Toolbar.borderColor": "#404040",
@@ -304,8 +304,9 @@
       "errorForeground": "#e06c75"
     },
     "Settings.Spotlight.borderColor": "accentColor",
-    "StatusBar.background": "#212121",
     "StatusBar.borderColor": "#711514",
+    "Statusbar.backgroundColor": "#212121",
+    "StatusBar.hoverBackground": "#292929",
     "TabbedPane": {
       "underlineColor": "accentColor",
       "contentAreaColor": "#292929",
@@ -344,21 +345,22 @@
       "buttonColor": "#696969"
     },
     "ToolTip": {
-      "background": "#292929"
+      "background": "#212121"
     },
     "ToolWindow": {
       "background": "#212121",
       "Button": {
-        "hoverBackground": "#292929",
+        "hoverBackground": "#313131",
         "selectedBackground": "#292929",
         "selectedForeground": "#861318"
       },
       "Header": {
+        "borderColor": "#404040",
         "background": "#212121",
-        "inactiveBackground": "#292929"
+        "inactiveBackground": "#212121"
       },
       "HeaderTab": {
-        "hoverBackground": "#292929",
+        "hoverBackground": "#313131",
         "hoverInactiveBackground": "#292929",
         "selectedBackground": "#292929",
         "selectedInactiveBackground": "#292929"
@@ -369,8 +371,11 @@
       "inactiveInfoForeground": "#696969"
     },
     "Tree": {
+      "hoverBackground": "#313131",
       "selectionBackground": "#292929",
       "modifiedItemForeground": "accentColor",
+      "selectionForeground": "foregroundColor",
+      "selectionInactiveBackground": "#292929",
       "selectionInactiveForeground": "foregroundColor",
       "rowHeight": 24
     },
@@ -393,11 +398,12 @@
       }
     },
     "WelcomeScreen": {
-      "borderColor": "borderColor",
       "Projects": {
-        "actions.background": "#292929",
+        "selectionBackground": "#212121",
+        "actions.background": "#212121",
         "selectionInactiveBackground": "#252525"
       },
+      "borderColor": "borderColor",
       "separatorColor": "accentColor",
       "SidePanel.background": "#212121",
       "Details.background": "backgroundColor"
