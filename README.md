@@ -4,7 +4,8 @@
 Dark Theme for JetBrains IDEs. With Red Accent and Syntax based on One Dark Pro of Atom
 <!-- Plugin description end -->
 
-![Lensch Roterlago Icon](https://github.com/federicolencina/jetbrains-lensch-roterlago/assets/166924760/fbd45f12-97ce-403d-969e-64271fe85d8e)
+![Lensch Roterlago Icon](https://github.com/federicolencina/jetbrains-roterlago-theme/assets/166924760/a30076cd-4a2a-4d7a-a283-781a671b5452)
+
 
 ## Installation
 
