@@ -20,6 +20,11 @@ Dark Theme for JetBrains IDEs. With Red Accent and Syntax based on One Dark Pro 
   <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>
 
 
+## Preview
+
+![Screenshot 2024-05-27 031022](https://github.com/federicolencina/jetbrains-roterlago-theme/assets/166924760/989d32e0-c3d3-4cb3-918b-92bca4f6d03b)
+
+
 ---
 Plugin based on the [IntelliJ Platform Plugin Template][template].
 
